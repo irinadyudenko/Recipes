@@ -1,0 +1,25 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Recipes/*
+!/Recipes/task/
+/Recipes/task/*
+!/Recipes/task/src
+!/Recipes/task/build.gradle
+
+# Project exclude paths
+/Topics/Builder/Builder (1)/out/
+/Topics/Builder/Builder (1)/out/production/classes/
+/Topics/LocalDate/2 weeks after/out/
+/Topics/LocalDate/2 weeks after/out/production/classes/
+/Topics/Runtime type checking/Pattern matching in practice/out/
+/Topics/Runtime type checking/Pattern matching in practice/out/production/classes/
